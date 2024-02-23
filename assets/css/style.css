@@ -41,13 +41,21 @@ header {
 }
 
 
-.navbar, #navbarNav, .navbar-collapse, li {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: none;
     margin: 0 30px;
 }
 
-.nav-link {
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
     color: white;
+    margin: 0 15px;
 }
 
 .linea {
